@@ -1,0 +1,977 @@
+{
+  "opperations": [
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
+        "fileRel": "cylinder.groovy",
+        "name": "Lustrous_Monowheel_Kig2NY96IP",
+        "location": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7071067811865475
+          }
+        }
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
+        "fileRel": "cone.groovy",
+        "name": "Shimmering_Titan_NLCEtHb0CU",
+        "location": {
+          "x": -1.0,
+          "y": 25.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7071067811865475
+          }
+        }
+      }
+    },
+    {
+      "type": "Allign",
+      "data": {
+        "names": [
+          "Shimmering_Titan_NLCEtHb0CU",
+          "Lustrous_Monowheel_Kig2NY96IP"
+        ],
+        "y": "middle",
+        "x": "middle",
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "bounds": {
+          "minx": -10.510565162951535,
+          "miny": -10.0,
+          "minz": 0.0,
+          "maxx": 10.510565162951536,
+          "maxy": 33.09016994374948,
+          "maxz": 20.0
+        }
+      }
+    },
+    {
+      "type": "ToHole",
+      "data": {
+        "names": [
+          "Shimmering_Titan_NLCEtHb0CU"
+        ]
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Lustrous_Monowheel_Kig2NY96IP",
+          "Shimmering_Titan_NLCEtHb0CU"
+        ],
+        "groupID": "Profuse_Rocketship_HX8Ld6GGDp",
+        "hull": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 23.09016994374948,
+          "z": 19.999999999999993,
+          "rotation": {
+            "w": -2.220446049250313E-16,
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ]
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
+        "fileRel": "cylinder.groovy",
+        "name": "Exuberant_Gremlin_fz7TuXROrA",
+        "location": {
+          "x": -1.0,
+          "y": 34.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7071067811865475
+          }
+        }
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Exuberant_Gremlin_fz7TuXROrA"
+        ]
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Exuberant_Gremlin_fz7TuXROrA"
+        ],
+        "height": {
+          "x": 0.0,
+          "y": 34.0,
+          "z": 3.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 10.0,
+          "y": 44.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -10.0,
+          "y": 24.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "Allign",
+      "data": {
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp",
+          "Exuberant_Gremlin_fz7TuXROrA"
+        ],
+        "y": "middle",
+        "x": "middle",
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "bounds": {
+          "minx": -10.0,
+          "miny": 2.499999999999993,
+          "minz": -7.105427357601002E-15,
+          "maxx": 10.0,
+          "maxy": 44.0,
+          "maxz": 20.000000000000007
+        }
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.4,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ]
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Exuberant_Gremlin_fz7TuXROrA",
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ],
+        "groupID": "Ingenious_Hovercar_70Tj0txXSs",
+        "hull": false
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Ingenious_Hovercar_70Tj0txXSs"
+        ],
+        "height": {
+          "x": 40.0,
+          "y": 23.472542485937367,
+          "z": 20.000000000000007,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 90.0,
+          "y": 33.69508497187474,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -10.0,
+          "y": 13.249999999999996,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Ingenious_Hovercar_70Tj0txXSs"
+        ],
+        "height": {
+          "x": 40.0,
+          "y": 63.25,
+          "z": 20.000000000000007,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 90.0,
+          "y": 113.25,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -10.0,
+          "y": 13.249999999999996,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -3.9000000000000004,
+          "y": -3.1,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Ingenious_Hovercar_70Tj0txXSs"
+        ]
+      }
+    },
+    {
+      "type": "UnGroup",
+      "data": {
+        "names": [
+          "Ingenious_Hovercar_70Tj0txXSs"
+        ]
+      }
+    },
+    {
+      "type": "Delete",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Exuberant_Gremlin_fz7TuXROrA"
+        ]
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ],
+        "height": {
+          "x": 36.099999999999994,
+          "y": 65.90912262376212,
+          "z": 9.999999999999993,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 83.65282581475768,
+          "y": 110.15,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -11.452825814757682,
+          "y": 21.668245247524233,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ],
+        "paste": "Gleeful_Imp_2tA8j84xDo",
+        "offset": 0.0
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Gleeful_Imp_2tA8j84xDo"
+        ],
+        "paste": "Bubbly_Zeppelin_yN0OD29e84",
+        "offset": 0.0
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Bubbly_Zeppelin_yN0OD29e84"
+        ],
+        "paste": "Creative_Ogre_lOnmLKa2Zf",
+        "offset": 0.0
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Creative_Ogre_lOnmLKa2Zf"
+        ],
+        "paste": "Fabulous_Monorail_J5fSMZEb8X",
+        "offset": 0.0
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 14.5,
+          "y": -104.80000000000001,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Fabulous_Monorail_J5fSMZEb8X"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Creative_Ogre_lOnmLKa2Zf"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 58.1,
+          "y": -120.10000000000001,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Creative_Ogre_lOnmLKa2Zf"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 116.0,
+          "y": 103.60000000000001,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Bubbly_Zeppelin_yN0OD29e84"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 114.9,
+          "y": -18.5,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Gleeful_Imp_2tA8j84xDo"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 58.5,
+          "y": 1.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Creative_Ogre_lOnmLKa2Zf"
+        ]
+      }
+    },
+    {
+      "type": "Delete",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Bubbly_Zeppelin_yN0OD29e84"
+        ]
+      }
+    },
+    {
+      "type": "Delete",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Gleeful_Imp_2tA8j84xDo"
+        ]
+      }
+    },
+    {
+      "type": "Delete",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Creative_Ogre_lOnmLKa2Zf"
+        ]
+      }
+    },
+    {
+      "type": "Delete",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Fabulous_Monorail_J5fSMZEb8X"
+        ]
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ],
+        "height": {
+          "x": 36.099999999999994,
+          "y": 65.90912262376212,
+          "z": 9.999999999999993,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 83.65282581475768,
+          "y": 110.15,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -11.452825814757682,
+          "y": 21.668245247524233,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ],
+        "height": {
+          "x": 36.099999999999994,
+          "y": 65.90912262376212,
+          "z": 19.999999999999993,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 83.65282581475768,
+          "y": 110.15,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -11.452825814757682,
+          "y": 21.668245247524233,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ],
+        "height": {
+          "x": 36.099999999999994,
+          "y": 65.90912262376212,
+          "z": 29.999999999999993,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 83.65282581475768,
+          "y": 110.15,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -11.452825814757682,
+          "y": 21.668245247524233,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Profuse_Rocketship_HX8Ld6GGDp"
+        ],
+        "height": {
+          "x": 36.099999999999994,
+          "y": 65.90912262376212,
+          "z": 39.99999999999999,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 83.65282581475768,
+          "y": 110.15,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -11.452825814757682,
+          "y": 21.668245247524233,
+          "z": -7.105427357601002E-15,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "currentIndex": 37,
+  "timeCreated": 1731781145126,
+  "projectName": "StainedGlassJig",
+  "workplane": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "rotation": {
+      "w": 1.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  }
+}
